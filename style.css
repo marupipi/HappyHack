@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-switcher {
+width: 100vw;
+height: 75vh;
+background-image: url(images/background1.jpg);
+background-position: center center;
+background-size: cover;
+}
+h1 img{
+  width: 900px;
+  text-align: center;
+}
+
+header {
+    
+    text-align: center;
+    padding-top: 220px;
+    position: relative;
+}
+
+header p {
+  color:#ffffff;
+  font-family:"Futura";
+  font-size:45px;
+  font-weight:100;
+  margin:30px 0px 0px;
+  text-align:center;
+}
+
+nav {
+    display: flex;
+   
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    margin-left:  840px;
+}
+
+nav li {
+    list-style: none;
+   
+}
+
+nav a {
+    color:#ffffff;
+    font-family:"Futura";
+    font-size:26.6667px;
+    padding:30px 15px 0px;
+    text-align:left;
+    text-decoration: none;
+}
+
+li a {
+    padding: 30px 15px 0px;
+    transition: 0.8s;
+}
+
+li a:hover {
+  color: #3d5cdb;
+}
+
+.intro_1 {
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+ margin-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 54px;
+    color: #3d5cdb;
+    font-family: "Futura";
+    padding: 45px;
+    font-weight: bold;
+}
+
+.intro1-caption {
+    margin-left: 80px;
+    width: 410px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.intro1-caption p {
+    margin-bottom: 60px;
+    margin-top: 0;
+    line-height: 32px;
+    color: #333;
+}
+
+.button1 {
+    color: #ffffff;
+    background-color: #3d5cdb;
+    border-radius: 12px;
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN';
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+}
+
+.button1:hover{
+  box-shadow: #858c8e 0px 2px 15px 2px;
+
+}
+
+.yellow {
+    background-color: #ffbf00;
+}
+
+.moji {
+    margin-right: 80px;
+}
+
+#courses {
+   background-color: #D6E5F9;
+   position: relative;
+}
+
+.course-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* .course-frame-inner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+} */
+
+.course-box{
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    width: 13vw;
+    height: 18vw;
+    padding: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 1vw;
+    z-index: 10;
+}
+
+.course-box a {
+    display: block;
+    width: 160px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 25px auto;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.course-box a:hover{
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.course-img{
+    height:70%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:0px 15px;
+}
+
+#html{
+    background-color: #f16529;
+}
+
+#css{
+    background-color: #29A9DF;
+}
+#unity{
+    background-color: #333;
+}
+
+#ruby{
+    background-color: #FF5252;
+}
+
+#js{
+    background-color: #FED700;
+}
+
+#swift {
+    background-color: #FE7536;
+}
+
+#go {
+    background-color: #73CEDD;
+}
+
+#images h2 {
+    margin-bottom: 30px;
+}
+
+.slider{
+    width: 80%;
+    margin: auto;
+}
+
+.slider div img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+
+.slider-img{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.slick-prev:before{
+    content: '←';
+    color: black;
+}
+
+.slick-next::before{
+    color: black;
+}
+
+#access {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+}
+footer p{
+    color: #3d5cdb;
+    font-family: 'Futura';
+    line-height:  60px;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1.5s;
+    -ms-animation-duration:1.5s;
+    animation-duration:1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+   }
+   @-webkit-keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+   }
+   @keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+   }
+
+   
+   @media all and (max-width:480px){
+    li a{
+        display: none;
+    }
+
+    header img{
+        width:263px;
+    }
+
+    header p{
+        font-weight: 100;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .intoro-box{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .intro_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+     .intro1-caption{
+        margin: 20px;
+     }
+
+     .intro_1 img {
+        width: 200px;
+        
+     }
+
+     .intro_1 p {
+        font-size: 13px;
+        line-height: 26px;
+        width: 302px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align-last: left;
+     }
+
+     #intro{
+        text-align: center;
+     }
+
+     .intoro-box img{
+         width:90%;
+     }
+
+     .down-box{
+        display: none;
+     }
+
+     .down-box2{
+        display: block;
+     }
+   }
