@@ -10,6 +10,14 @@ $(function($) {
     slidesToShow:4,
     slidesToScroll:1,
     dots:true,
+    responsive : [{
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        slidesToShow: 1,
+        dots: true,
+      }
+    }]
   });
 
 
